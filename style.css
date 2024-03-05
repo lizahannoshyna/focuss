@@ -1,0 +1,216 @@
+:root {
+    --background-main-color: #121212;
+    --background-accent-color: #1D1D1D;
+    --text-main-color: #FFFFFF;
+    --text-accent-color: #BEA69E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+/* навігація */
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.header {
+    padding: 22px 50px 22px 50px;
+    background-color: var(--background-main-color);
+    background-image: url(/focusimg/header_graphic.svg);
+}
+
+.header-block {
+    background-color: var(--background-main-color);
+    display: flex;
+    padding: 22px 50px;
+    border: 1px solid rgba(225, 225, 225, 20);
+    border-radius: 12px;
+}
+
+.header-block img {
+    padding-right: 50px;
+}
+
+.header-nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.header a {
+    color: var(--text-main-color);
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 40px;
+    text-decoration: none;
+    line-height: 120%;
+}
+
+.header-button {
+    background-color: var(--text-main-color);
+    color: var(--background-main-color);
+    height: 60px;
+    width: 238px;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* розділ героя */
+.hero-section .container {
+    background-color: var(--background-accent-color);
+    border-radius: 30px;
+    
+}
+
+.hero-section {
+    margin: 80px 0;
+}
+
+.hero-section-header h1 {
+    color: var(--text-main-color);
+    font-size: 64px;
+    font-size: 500; 
+}
+/* блок */
+.block {
+    background-color: var(--background-main-color);
+    border: 1px solid rgba(225, 225, 225, 20);
+    padding: 24px 100px;
+}
+
+.block-header {
+    font-size: 59px;
+    color: var(--text-main-color);
+    font-weight: 400;
+    line-height: 101%;
+}
+
+/* про нас */
+.about-us {
+    display: flex;
+    background-color: var(--background-main-color);
+    padding: 150px 0;
+}
+
+.about-us-content {
+    display: flex;
+}
+
+.about-us h4 {
+    color: var(--text-main-color);
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.about-us-text {
+    color: var(--text-main-color);
+}
+.about-us-text {
+    display: flex;
+    flex-basis: 630px;
+}
+
+
+/* наш курс */
+.our-courses {
+    background-color: var(--background-main-color);
+    padding: 150px 0;
+}
+.our-courses .container {
+    padding: 0;
+}
+
+.our-courses-header {
+    display: flex;
+}
+
+.our-courses h4 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--text-main-color);
+    margin-right: 410px;
+}
+
+.our-courses p {
+    color: var(--text-main-color);
+}
+
+.our-courses-header-p {
+    flex-basis: 565px;
+    justify-content: flex-end;
+}
+
+.our-courses-cards {
+    padding: 50px;
+}
+
+.our-courses-cards .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-list {
+    display: flex;
+}
+
+.our-courses-card {
+    width: 400px;
+    height: 452px;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(6, 7, 7, 1),
+    rgba(29, 29, 29, 1)
+    );
+    border: 1px solid rgba(225, 225, 225, 20%);
+    border-radius: 12px;
+}
+
+/* наші ментори */
+.our-mentors {
+    background-color: var(--background-main-color);
+    padding: 150px 0;
+}
+.our-mentors-header {
+    color: var(--text-main-color);
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.our-mentors h5,h4,p {
+    color: var(--text-main-color);
+}
+.our-mentors-content {
+    display: flex;
+}
+/* реєстрація */
+.sign-up {
+    background-color: var(--background-main-color);
+    padding: 150px 0;
+}
+/* відгуки */
+.reviews {
+    background-color: var(--background-main-color);
+    padding: 150px 0;
+}
+/* футер */
+.footer {
+    background-color: var(--background-main-color);
+    background-image: url(/focusimg/header_graphic.svg);
+    padding: 50px 0 25px 0
+}
+/* котейнер */
+.container {
+    width: 1240px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
