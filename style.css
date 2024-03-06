@@ -108,7 +108,7 @@ body {
 .about-us h4 {
     color: var(--text-main-color);
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 500px;
     margin-bottom: 50px;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .our-courses h4 {
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 500px;
     color: var(--text-main-color);
     margin-right: 410px;
 }
@@ -178,12 +178,12 @@ body {
 /* наші ментори */
 .our-mentors {
     background-color: var(--background-main-color);
-    padding: 150px 0;
+    padding:  0;
 }
 .our-mentors-header {
     color: var(--text-main-color);
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 500px;
     margin-bottom: 50px;
 }
 .our-mentors h5,h4,p {
@@ -192,15 +192,86 @@ body {
 .our-mentors-content {
     display: flex;
 }
+
+.our-mentors-content-items h5 {
+    font-size: 28px;
+    font-weight: 400px;
+}
+
+.our-mentors-content-items p {
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+}
 /* реєстрація */
 .sign-up {
     background-color: var(--background-main-color);
     padding: 150px 0;
 }
+
+.sign-up h4 {
+   font-size: 48px;
+   font-weight: 500px;
+}
+.sign-up p {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.sign-up-img {
+    align-items: end;
+}
+
+.instruction {
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-label {
+    font-size: 16px;
+    font-weight: 400px;
+    color: var(--text-main-color);
+  }
+  
+  .contact-input {
+    width: 480px;
+    height: 60px;
+  }
+  
+  .contact-textarea {
+    height: 212px;
+  }
+
+  .contact-button {
+    padding: 16px 216px;
+    border: none;
+    border-radius: 12px;
+  }
 /* відгуки */
 .reviews {
     background-color: var(--background-main-color);
     padding: 150px 0;
+}
+
+.reviews h4 {
+    font-size: 48px;
+    font-weight: 500px;
+}
+
+.reviews h6 {
+    font-size: 20px;
+    font-weight: 500px;
+    color: var(--text-main-color);
+}
+.review {
+    display: flex;
+}
+
+
+.reviews-item {
+    width: 610px;
+    border: 1 solid rgba(255, 255, 255, 0.2);
 }
 /* футер */
 .footer {
@@ -208,6 +279,16 @@ body {
     background-image: url(/focusimg/header_graphic.svg);
     padding: 50px 0 25px 0
 }
+
+.footer .container {
+    display: flex;
+}
+
+.footer ul {
+   list-style: none;
+   color: var(--text-main-color);
+}
+
 /* котейнер */
 .container {
     width: 1240px;
