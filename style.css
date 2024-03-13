@@ -54,6 +54,10 @@ body {
     line-height: 120%;
 }
 
+.header a:hover {
+    color: var(--text-accent-color);
+}
+
 .header-button {
     background-color: var(--text-main-color);
     color: var(--background-main-color);
@@ -68,18 +72,40 @@ body {
 .hero-section .container {
     background-color: var(--background-accent-color);
     border-radius: 30px;
-    
 }
 
 .hero-section {
     margin: 80px 0;
 }
 
+.hero-section-left {
+    width: 563px;
+    align-items: end;
+    padding: 50px 0 50px 50px;
+}
+
 .hero-section-header h1 {
     color: var(--text-main-color);
     font-size: 64px;
-    font-size: 500; 
+    font-size: 500;
+    line-height: 94%;
 }
+
+.hero-section-header p {
+    padding-top: 20px;
+}
+
+.our-happy-students {
+    padding-top: 136px;
+    display: flex;
+}
+
+.hero-section-right {
+    margin-top: auto;
+    padding-right: 100px;
+}
+
+
 /* блок */
 .block {
     background-color: var(--background-main-color);
@@ -92,6 +118,7 @@ body {
     color: var(--text-main-color);
     font-weight: 400;
     line-height: 101%;
+    letter-spacing: -2%;
 }
 
 /* про нас */
@@ -112,9 +139,18 @@ body {
     margin-bottom: 50px;
 }
 
+.about-us-content img {
+    padding-right: 50px;
+}
+
+.about-us-content-p-1 {
+    padding-right: 40px;
+}
+
 .about-us-text {
     color: var(--text-main-color);
 }
+
 .about-us-text {
     display: flex;
     flex-basis: 630px;
@@ -126,12 +162,18 @@ body {
     background-color: var(--background-main-color);
     padding: 150px 0;
 }
+
 .our-courses .container {
     padding: 0;
 }
 
 .our-courses-header {
     display: flex;
+}
+
+.card-list {
+    
+    list-style: none;
 }
 
 .our-courses h4 {
@@ -159,38 +201,79 @@ body {
     flex-wrap: wrap;
 }
 
+.card:not(:last-child) {
+    padding-right: 20px;
+}
+
 .card-list {
     display: flex;
 }
 
 .our-courses-card {
-    width: 400px;
-    height: 452px;
-    background-image: linear-gradient(
-    to bottom,
-    rgba(6, 7, 7, 1),
-    rgba(29, 29, 29, 1)
-    );
+    background-image: linear-gradient(to bottom,
+            rgba(6, 7, 7, 1),
+            rgba(29, 29, 29, 1));
     border: 1px solid rgba(225, 225, 225, 20%);
     border-radius: 12px;
+}
+
+.card {
+    width: 400px;
+}
+
+.our-courses-card-menu {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.our-courses-card h4 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 87, 5%;
+    width: 256px;
+    padding-top: 32px;
+}
+
+.our-courses-card p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 136px;
+    width: 336px;
+}
+
+.our-courses-card:hover {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);;
+}
+
+.basics-of-photography {
+    padding: 32px;
 }
 
 /* наші ментори */
 .our-mentors {
     background-color: var(--background-main-color);
-    padding:  0;
+    padding: 0;
 }
+
 .our-mentors-header {
     color: var(--text-main-color);
     font-size: 48px;
     font-weight: 500px;
     margin-bottom: 50px;
 }
-.our-mentors h5,h4,p {
+
+.our-mentors h5,
+h4,
+p {
     color: var(--text-main-color);
 }
+
 .our-mentors-content {
     display: flex;
+    width: 1034px;
+    justify-content: space-between;
+    padding: 0 103px 0 103px;
 }
 
 .our-mentors-content-items h5 {
@@ -203,16 +286,27 @@ body {
     font-weight: 400px;
     color: rgba(255, 255, 255, 0.5);
 }
+
 /* реєстрація */
 .sign-up {
     background-color: var(--background-main-color);
     padding: 150px 0;
 }
 
-.sign-up h4 {
-   font-size: 48px;
-   font-weight: 500px;
+.sign-up-left {
+    width: 480px;
 }
+
+.sign-up-left p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.sign-up h4 {
+    font-size: 48px;
+    font-weight: 500px;
+}
+
 .sign-up p {
     font-size: 16px;
     font-weight: 400px;
@@ -232,22 +326,40 @@ body {
     font-size: 16px;
     font-weight: 400px;
     color: var(--text-main-color);
-  }
-  
-  .contact-input {
+}
+
+.contact-input {
     width: 480px;
     height: 60px;
-  }
-  
-  .contact-textarea {
-    height: 212px;
-  }
+    background-color: var(--background-main-color);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
 
-  .contact-button {
-    padding: 16px 216px;
+.contact-textarea {
+    height: 120px;
+}
+
+.contact-button {
+    width: 479px;
+    height: 60px;
     border: none;
     border-radius: 12px;
-  }
+}
+
+.sign-up-mini-camera {
+    padding-right: 20px;
+}
+
+.contact {
+    display: flex;
+}
+
+.sign-up-right {
+    display: flex;
+    align-items: flex-start;
+}
+
 /* відгуки */
 .reviews {
     background-color: var(--background-main-color);
@@ -264,14 +376,35 @@ body {
     font-weight: 500px;
     color: var(--text-main-color);
 }
+
 .review {
+    display: flex;
+    padding-top: 50px;
+}
+
+.review-first {
+    align-self: flex-start;
+}
+
+.review-star {
+    padding-top: 5px;
+}
+
+.review-first-top {
     display: flex;
 }
 
+.review-first-top-left {
+    display: flex;
+    padding: 3px 0 0 3px;
+}
 
-.reviews-item {
-    width: 610px;
-    border: 1 solid rgba(255, 255, 255, 0.2);
+.review-first-top-left img {
+    margin-right: 10px;
+}
+
+.review-first-bottom {
+    padding-top: 20px;
 }
 /* футер */
 .footer {
@@ -285,8 +418,8 @@ body {
 }
 
 .footer ul {
-   list-style: none;
-   color: var(--text-main-color);
+    list-style: none;
+    color: var(--text-main-color);
 }
 
 /* котейнер */
