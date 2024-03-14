@@ -172,7 +172,7 @@ body {
 }
 
 .card-list {
-    
+
     list-style: none;
 }
 
@@ -243,7 +243,8 @@ body {
 }
 
 .our-courses-card:hover {
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+    ;
 }
 
 .basics-of-photography {
@@ -285,6 +286,10 @@ p {
     font-size: 14px;
     font-weight: 400px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.our-mentors-content-items p {
+    text-align: center;
 }
 
 /* реєстрація */
@@ -345,6 +350,7 @@ p {
     height: 60px;
     border: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 .sign-up-mini-camera {
@@ -359,6 +365,7 @@ p {
     display: flex;
     align-items: flex-start;
 }
+
 
 /* відгуки */
 .reviews {
@@ -406,20 +413,85 @@ p {
 .review-first-bottom {
     padding-top: 20px;
 }
+
 /* футер */
 .footer {
     background-color: var(--background-main-color);
     background-image: url(/focusimg/header_graphic.svg);
-    padding: 50px 0 25px 0
 }
 
-.footer .container {
+.footer-top {
     display: flex;
 }
 
 .footer ul {
     list-style: none;
     color: var(--text-main-color);
+}
+
+.footer-first-column a {
+    color: var(--text-main-color);
+    text-decoration: none;
+}
+
+.footer-first-column a:hover {
+    color: var(--text-accent-color);
+}
+
+.footer-contacts {
+    padding-top: 25px;
+}
+
+.header-nav-contact {
+    padding-bottom: 10px;
+}
+
+.footer-block-center {
+    display: flex;
+}
+
+.footer-social-networks {
+    padding-right: 100px;
+}
+
+.footer-contact-input {
+    width: 216px;
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+}
+
+.footer-button {
+    width: 60px;
+    height: 60px;
+    background-color: var(--background-accent-color);
+    color: var(--text-main-color);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.footer-go {
+    display: flex;
+}
+
+.footer-button {
+    margin-left: 16px;
+}
+
+.footer-top {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footer-wrap {
+    padding: 50px 0 25px 0;
 }
 
 /* котейнер */
