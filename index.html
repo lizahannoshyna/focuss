@@ -35,15 +35,28 @@
             <div class="container">
                 <div class="hero-section-left">
                     <div class="hero-section-header">
-                        <h1>Discover the magic of photography in our school</h1>
+                        <h1>Discover the magic of <span class="hero-section-span">photography</span> in our school</h1>
                         <p>Our photography school offers an unforgettable journey, where you can learn the basics of
                             composition, master technical skills, translate your unique ideas.</p>
                     </div>
-                    <div class="our-happy-students">
-                        <img src="focusimg/avatar_user_square (1).png" alt="avatar_user_square">
-                        <div class="our-happy-students-p-arrow">
-                            <p>Our happy <br> students</p>
-                            <img src="focusimg/arrow.svg" alt="arrow">
+                    <div class="our-happy-students-review">
+                        <div class="our-happy-students">
+                            <div class="our-happy-students-img">
+                                <img src="focusimg/avatar_user_square (1).png" alt="avatar_user_square">
+                            </div>
+                            <div class="our-happy-students-p-arrow">
+                                <p>Our happy <br> students</p>
+                                <img src="focusimg/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="star-review">
+                            <div class="star-review-img">
+                                <img src="focusimg/icon_star_header.svg" alt="icon">
+                            </div>
+                            <div class="star-review-text">
+                                <p>Reviews</p>
+                                <h6>+1500</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,21 +69,22 @@
     <main>
         <section class="block">
             <div class="container">
-                <h2 class="block-header">MASTER YOUR PHOTOGRAPHY SKILLS WITH US!</h2>
+                <h2 class="block-header"> <span class="block-header-span">MASTER</span> YOUR PHOTOGRAPHY <span
+                        class="block-header-span">SKILLS WITH US!</span></h2>
             </div>
         </section>
         <section class="about-us">
             <div class="container">
-                <h4 class="about-us-header">About Us</h4>
+                <h4 class="about-us-header">About <span class="headers-span">Us</span></h4>
                 <div class="about-us-content">
-                    <img src="focusimg/camera_about_us_bw.png" alt="camera">
+                    <div class="about-us-img"><img src="focusimg/camera_about_us_bw.png" alt="camera"></div>
                     <div class="about-us-text">
                         <p class="about-us-content-p-1">Our photography school is designed to teach you everything you
-                            need to know about this
-                            magical art. Regardless of your experience or skill level, we offer a wide range of courses
-                            to suit your needs and interests. Our teaching team consists of experienced photographers
-                            who have many years of experience in this field. They strive not only to share their
-                            knowledge, but also to inspire you to develop and express your unique creativity.</p>
+                            need to know about this magical art. Regardless of your experience or skill level, we offer
+                            a wide range of courses to suit your needs and interests. Our teaching team consists of
+                            experienced photographers who have many years of experience in this field. They strive not
+                            only to share their knowledge, but also to inspire you to develop and express your unique
+                            creativity.</p>
                         <p class="about-us-content-p-2">Our courses cover a wide range of topics, from the basics of
                             photography and equipment use to
                             professional image processing and creating impressive compositions. You will have the
@@ -84,7 +98,7 @@
         <section class="our-courses">
             <div class="container">
                 <div class="our-courses-header">
-                    <h4>Our Courses</h4>
+                    <h4>Our <span class="headers-span">Courses</span></h4>
                     <div class="our-courses-header-p">
                         <p>At our photography school, we offer a variety of courses that cover all aspects of this
                             fascinating art. Regardless of your experience or skill level, we have courses to suit your
@@ -135,7 +149,7 @@
         </section>
         <section class="our-mentors">
             <div class="container">
-                <h4 class="our-mentors-header">Our Mentors</h4>
+                <h4 class="our-mentors-header">Our <span class="headers-span">Mentors</span></h4>
                 <div class="our-mentors-content">
                     <figure class="our-mentors-content-items"><img src="focusimg/emilia_smith.svg" alt="photo">
                         <figcaption>
@@ -171,25 +185,26 @@
             <div class="container">
                 <section class="contact">
                     <div class="sign-up-left">
-                        <h4>Signed up</h4>
+                        <h4>Signed <span class="headers-span">up</span></h4>
                         <p>Please use the form below to contact us. Enter your name, email, and message and we'll get
                             back to
                             you shortly.</p>
                         <form class="contact-form" action="/submit_form" method="post">
                             <div class="form-wrapp">
                                 <div class="form-wrap-left">
-                                    <label class="contact-label" for="name">Your Name:</label><br />
-                                    <input class="contact-input" type="text" id="name" name="name"
-                                        required /><br /><br />
+                                    <label class="contact-label" for="name"></label>
+                                    <input class="contact-input" type="name" id="name" name="name"
+                                        placeholder="Enter your name" required /><br /><br />
 
-                                    <label class="contact-label" for="email">Your E-mail:</label><br />
+                                    <label class="contact-label" for="email"></label><br />
                                     <input class="contact-input" type="email" id="email" name="email"
-                                        required /><br /><br />
+                                        placeholder="Your E-mail" required /><br /><br />
                                 </div>
                                 <div class="form-wrap-right">
-                                    <label class="contact-label" for="message">Your Message:</label><br />
-                                    <textarea class="contact-input contact-textarea" id="message" name="message"
-                                        rows="4" cols="50" required></textarea><br /><br />
+                                    <label class="contact-label" for="message"></label><br />
+                                    <textarea class="contact-input contact-textarea" type="message" id="message"
+                                        name="message" placeholder="Message" rows="4" cols="50"
+                                        required></textarea><br /><br />
                                 </div>
                             </div>
                             <input class="contact-button" type="submit" value="SEND" />
@@ -231,9 +246,9 @@
                     <div class="review-first">
                         <div class="review-first-top">
                             <div class="review-first-top-left">
-                                <img src="focusimg/user_abraham_baker.svg" alt="photo">
+                                <img src="focusimg/user_amanda_lowery.svg" alt="photo">
                                 <div class="review-first-top-text">
-                                    <h6>Abraham Baker</h6>
+                                    <h6>Amanda Lowery</h6>
                                     <p>Student</p>
                                 </div>
                             </div>
@@ -242,11 +257,10 @@
                             </div>
                         </div>
                         <div class="review-first-bottom">
-                            <p>I am very pleased that I decided to enroll in photography school. The teachers turned out
-                                to
-                                be very talented and experienced professionals who share their knowledge and are
-                                dedicated
-                                to their work. I was able to expand my skills and discover my own style.</p>
+                            <p>The courses at the photography school exceeded all my expectations. I gained not only
+                                technical knowledge, but also inspiration and motivation to reach new heights in my
+                                creativity. Hands-on classes and workshops helped me understand different styles of
+                                photography.</p>
                         </div>
                     </div>
                 </div>
@@ -270,22 +284,24 @@
                     </ul>
                     <div class="footer-block-center">
                         <ul class="footer-social-networks">
-                            <li><a href="#"></a>INSTAGRAM</li>
-                            <li><a href="#"></a>FACEBOOK</li>
-                            <li><a href="#"></a>YOUTUBE</li>
+                            <li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
+                            <li><a href="https://www.facebook.com/?locale=uk_UA">FACEBOOK</a></li>
+                            <li><a href="https://www.youtube.com/">YOUTUBE</a></li>
                         </ul>
                         <ul class="footer-menu">
-                            <li>ABOUT US</li>
-                            <li>OUR COURSES</li>
-                            <li>OUR MENTORS</li>
-                            <li>REVIEWS</li>
-                            <li>CONTACTS</li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">OUR COURSES</a></li>
+                            <li><a href="#">OUR MENTORS</a></li>
+                            <li><a href="#">REVIEWS</a></li>
+                            <li><a href="#">CONTACTS</a></li>
                         </ul>
                     </div>
                     <div class="footer-go">
                         <label class="footer-contact-label" for="email"></label><br />
-                        <input class="footer-contact-input" type="email" id="email" name="email" required /><br /><br />
-                        <button class="footer-button" type="submit">Go</button>
+                        <input class="footer-contact-input" type="email" id="email" name="email"
+                            placeholder="Enter your email" required /><br /><br />
+                        <a href="https://www.canva.com/design/DAF_Z8DnV6s/pqMyei3cAkwSqDy_ea3Htg/edit"><button
+                                class="footer-button" type="submit">Go</button></a>
                     </div>
                 </div>
                 <div class="footer-bottom">
