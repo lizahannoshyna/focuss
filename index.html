@@ -41,7 +41,7 @@
                     <div class="our-happy-students-review">
                         <div class="our-happy-students">
                             <div class="our-happy-students-img">
-                                <img src="focusimg/avatar_user_square (1).png" alt="avatar_user_square">
+                                <img src="focusimg/avatar_user_square1.png" alt="avatar_user_square">
                             </div>
                             <div class="our-happy-students-p-arrow">
                                 <p>Our happy <br> students</p>
@@ -91,7 +91,6 @@
                             develop your own visual language.</p>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <section class="our-courses">
@@ -180,7 +179,7 @@
                 </div>
             </div>
         </section>
-        <section class="sign-up">
+        <div class="sign-up">
             <div class="container">
                 <section class="contact">
                     <div class="sign-up-left">
@@ -192,31 +191,31 @@
                             <div class="form-wrapp">
                                 <div class="form-wrap-left">
                                     <label class="contact-label" for="name"></label>
-                                    <input class="contact-input" type="name" id="name" name="name"
-                                        placeholder="Enter your name" required /><br /><br />
+                                    <input class="contact-input" type="text" id="name" name="name"
+                                        placeholder="Enter your name" required><br><br>
 
-                                    <label class="contact-label" for="email"></label><br />
+                                    <label class="contact-label" for="email"></label><br>
                                     <input class="contact-input" type="email" id="email" name="email"
-                                        placeholder="Your E-mail" required /><br /><br />
+                                        placeholder="Your E-mail" required><br><br>
                                 </div>
                                 <div class="form-wrap-right">
-                                    <label class="contact-label" for="message"></label><br />
-                                    <textarea class="contact-input contact-textarea" type="message" id="message"
-                                        name="message" placeholder="Message" rows="4" cols="50"
-                                        required></textarea><br /><br />
+                                    <label class="contact-label" for="message"></label><br>
+                                    <textarea class="contact-input contact-textarea" id="message" name="message"
+                                        placeholder="Message" rows="4" cols="50" required></textarea><br><br>
                                 </div>
                             </div>
-                            <input class="contact-button" type="submit" value="SEND" />
+                            <input class="contact-button" type="submit" value="SEND">
                         </form>
                         <p class="instruction">By clicking on “Send” button, you agree to our Privacy Policy,
                             and allow Promodo to use this information for marketing purposes.</p>
                     </div>
                     <div class="sign-up-right">
-                        <img src="focusimg/mini&big_camera.svg" alt="photo">
+                        <img class="mini-camera" src="focusimg/mini_camera.svg" alt="img">
+                        <img class="big-camera" src="focusimg/big_camera.svg" alt="img">
                     </div>
+                </section>
             </div>
-        </section>
-        </section>
+        </div>
         <section class="reviews">
             <div class="container">
                 <h4>Reviews</h4>
@@ -231,7 +230,11 @@
                                 </div>
                             </div>
                             <div class="review-star">
-                                <img src="focusimg/review_stars.svg" alt="4 stars of 5">
+                                <img src="focusimg/star_yellow.svg" alt="icon">
+                                <img src="focusimg/star_yellow.svg" alt="icon">
+                                <img src="focusimg/star_yellow.svg" alt="icon">
+                                <img src="focusimg/star_yellow.svg" alt="icon">
+                                <img src="focusimg/star_gray.svg" alt="icon">
                             </div>
                         </div>
                         <div class="review-first-bottom">
@@ -252,7 +255,11 @@
                                 </div>
                             </div>
                             <div class="review-star">
-                                <img src="focusimg/review_stars.svg" alt="4 stars of 5">
+                                <img src="focusimg/star_yellow.svg" alt="icon">
+                                <img src="focusimg/star_yellow.svg" alt="icon">
+                                <img src="focusimg/star_yellow.svg" alt="icon">
+                                <img src="focusimg/star_yellow.svg" alt="icon">
+                                <img src="focusimg/star_gray.svg" alt="icon">
                             </div>
                         </div>
                         <div class="review-first-bottom">
@@ -263,6 +270,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -271,15 +279,13 @@
                 <div class="footer-top">
                     <ul class="footer-first-column">
                         <li><img src="focusimg/focus_logo.svg" alt="Focus.Frame"></li>
-                        <div class="footer-contacts">
-                            <li>
-                                <a class="header-nav-item header-nav-contact" href="tel:+38 066 543 8912">Ua: +38 066
-                                    543 8912</a>
-                            </li>
-                            <li>
-                                <address>Ukraine, Kyiv</address>
-                            </li>
-                        </div>
+                        <li>
+                            <a class="header-nav-item header-nav-contact" href="tel:+380665438912">Ua: +38 066
+                                543 8912</a>
+                        </li>
+                        <li>
+                            <address>Ukraine, Kyiv</address>
+                        </li>
                     </ul>
                     <div class="footer-block-center">
                         <ul class="footer-social-networks">
@@ -296,11 +302,10 @@
                         </ul>
                     </div>
                     <div class="footer-go">
-                        <label class="footer-contact-label" for="email"></label><br />
-                        <input class="footer-contact-input" type="email" id="email" name="email"
-                            placeholder="Enter your email" required /><br /><br />
-                        <a href="https://www.canva.com/design/DAF_Z8DnV6s/pqMyei3cAkwSqDy_ea3Htg/edit"><button
-                                class="footer-button" type="submit">Go</button></a>
+                        <label class="footer-contact-label" for="email"></label><br>
+                        <input class="footer-contact-input" type="email" id="emailfooter" name="email"
+                            placeholder="Enter your email" required><br><br>
+                        <button class="footer-button" type="submit">Go</button>
                     </div>
                 </div>
                 <div class="footer-bottom">

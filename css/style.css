@@ -70,7 +70,11 @@ body {
     border: 1px solid #FFFFFF;
     border-radius: 12px;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 155%;
 }
+
 
 /* розділ героя */
 .hero-section .container {
@@ -91,7 +95,7 @@ body {
 .hero-section-header h1 {
     color: var(--text-main-color);
     font-size: 64px;
-    font-size: 500;
+    font-weight: 500;
     line-height: 106%;
 }
 
@@ -296,7 +300,7 @@ body {
 .our-courses-card h4 {
     font-size: 28px;
     font-weight: 500;
-    line-height: 87, 5%;
+    line-height: 87%;
     width: 256px;
     padding-top: 32px;
 }
@@ -326,6 +330,7 @@ body {
     margin-left: auto;
     cursor: pointer;
 }
+
 .basics-of-photography {
     padding: 32px;
 }
@@ -407,10 +412,6 @@ p {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.sign-up-right {
-    margin-left: auto;
-}
-
 .contact-label {
     font-size: 16px;
     font-weight: 400;
@@ -430,7 +431,7 @@ p {
     width: 480px;
 }
 
-input[type="name"],
+input[type="text"],
 input[type="email"] {
     padding: 0 0 0 18px;
     font-family: "DM Sans", sans-serif;
@@ -440,7 +441,7 @@ input[type="email"] {
     color: var(--text-main-color);
 }
 
-textarea[type="message"] {
+textarea[id="message"] {
     padding: 20px 0 0 18px;
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
@@ -455,22 +456,22 @@ textarea[type="message"] {
     border: none;
     border-radius: 12px;
     cursor: pointer;
-}
-
-.sign-up-mini-camera {
-    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 155%;
 }
 
 .contact {
     display: flex;
 }
 
-
 .sign-up-right {
-    display: flex;
-    align-items: flex-start;
+    margin-left: auto;
 }
 
+.mini-camera {
+    padding-right: 20px;
+}
 
 /* відгуки */
 .reviews {
@@ -541,6 +542,10 @@ textarea[type="message"] {
 .footer ul {
     list-style: none;
     color: var(--text-main-color);
+}
+
+.footer-first-column img {
+    padding-bottom: 25px;
 }
 
 .footer-first-column a {
@@ -615,6 +620,9 @@ textarea[type="message"] {
     border: none;
     border-radius: 12px;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
 }
 
 .footer-go {
