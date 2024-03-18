@@ -259,8 +259,6 @@ body {
     max-width: 1240px;
 }
 
-.our-courses p {}
-
 .our-courses-cards {
     padding: 50px;
 }
@@ -533,7 +531,7 @@ textarea[type="message"] {
 /* футер */
 .footer {
     background-color: var(--background-main-color);
-    background-image: url(/focusimg/header_graphic.svg);
+    background-image: url(../focusimg/header_graphic.svg);
 }
 
 .footer-top {
